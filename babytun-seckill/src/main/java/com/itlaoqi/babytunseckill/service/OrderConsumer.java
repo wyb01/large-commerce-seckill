@@ -5,31 +5,39 @@ import com.itlaoqi.babytunseckill.entity.Order;
 import com.rabbitmq.client.Channel;
 import org.springframework.amqp.rabbit.annotation.*;
 import org.springframework.amqp.support.AmqpHeaders;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Headers;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
-
 import java.io.IOException;
 import java.util.Date;
 import java.util.Map;
 
+/**
+* @Description: 消费消息
+* @Author: wyb
+* @Date: 2019-11-12 17:27:23       
+*/
 @Component
-/*@@请加Q群：369531466,与几百名工程师共同学习,遇到难题可随时@老齐,多一点真诚，少一点套路@@*/public class OrderConsumer {
+public class OrderConsumer {
+
     @Resource
     private OrderDAO orderDAO;
 
+    //rabbitmq监听器
     @RabbitListener(
             bindings = @QueueBinding(
-                    value = @Queue(value = "queue-order") ,
-                    exchange = @Exchange(value = "exchange-order" , type = "fanout")
+                    value = @Queue(value = "queue-order") ,   //队列
+                    exchange = @Exchange(value = "exchange-order" , type = "fanout")  //交换机
             )
     )
+
+    //用于获取消息
     @RabbitHandler
     public void handleMessage(@Payload Map data , Channel channel ,
                               @Headers Map<String,Object> headers){
+
         System.out.println("=======获取到订单数据:" + data + "===========);");
 
         try {
@@ -51,8 +59,10 @@ import java.util.Map;
             order.setPostage(0f);
             order.setCreateTime(new Date());
             orderDAO.insert(order);
+
             Long tag = (Long)headers.get(AmqpHeaders.DELIVERY_TAG);
-            channel.basicAck(tag , false);//消息确认
+            channel.basicAck(tag , false);  //消息确认
+
             System.out.println(data.get("orderNo") + "订单已创建");
         } catch (IOException e) {
             e.printStackTrace();
