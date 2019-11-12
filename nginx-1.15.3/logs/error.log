@@ -1,0 +1,16 @@
+2018/09/12 18:21:09 [error] 2468#12744: *1 CreateFile() "D:\nginx-1.15.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/09/12 18:22:45 [notice] 9100#11408: signal process started
+2018/09/12 18:23:10 [notice] 13416#13880: signal process started
+2018/09/12 18:27:10 [notice] 11616#12028: signal process started
+2018/09/12 18:27:14 [error] 6772#10176: *6 directory index of "d:/babytun/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2018/09/13 15:23:49 [error] 16844#6636: *1 directory index of "d:/babytun/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2018/09/13 15:23:59 [error] 16844#6636: *1 CreateFile() "d:/babytun/evaluate/1332" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /evaluate/1332 HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/1332.html"
+2018/09/13 15:24:00 [error] 16844#6636: *1 CreateFile() "d:/babytun/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/1332.html"
+2018/09/13 15:33:46 [notice] 11412#5068: signal process started
+2018/09/13 15:34:09 [error] 17268#8216: *8 CreateFile() "d:/babytun/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/2010.html"
+2018/09/13 15:35:54 [error] 17268#8216: *8 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /evaluate/2010 HTTP/1.1", upstream: "http://127.0.0.1:8080/evaluate/2010", host: "localhost", referrer: "http://localhost/goods/2010.html"
+2018/09/14 00:27:59 [error] 6632#15740: *1 CreateFile() "d:/babytun/evaluate/2000" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /evaluate/2000 HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/2000.html"
+2018/09/14 00:27:59 [error] 6632#15740: *1 CreateFile() "d:/babytun/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/2000.html"
+2018/09/14 00:28:10 [error] 6632#15740: *1 CreateFile() "d:/babytun/evaluate/2000" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /evaluate/2000 HTTP/1.1", host: "localhost", referrer: "http://localhost/goods/2000.html"
+2018/09/14 00:34:20 [notice] 11960#17144: signal process started
+2018/09/14 01:04:43 [notice] 15380#5140: signal process started

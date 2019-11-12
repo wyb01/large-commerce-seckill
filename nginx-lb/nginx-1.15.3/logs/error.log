@@ -1,0 +1,63 @@
+2018/09/26 17:31:39 [error] 16676#8384: *483 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.31.182, server: , request: "GET /goods?gid=1338 HTTP/1.1", upstream: "http://192.168.31.182:8001/goods?gid=1338", host: "192.168.31.182"
+2018/09/26 17:31:50 [error] 16676#8384: *483 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.31.182, server: , request: "GET /goods?gid=1338 HTTP/1.1", upstream: "http://192.168.31.182:8001/goods?gid=1338", host: "192.168.31.182"
+2018/09/26 17:32:02 [error] 16676#8384: *483 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.31.182, server: , request: "GET /goods?gid=1338 HTTP/1.1", upstream: "http://192.168.31.182:8001/goods?gid=1338", host: "192.168.31.182"
+2018/10/02 11:16:30 [emerg] 11596#10736: CreateDirectory() "D:\nginx-lb\nginx-1.15.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2018/10/02 11:19:29 [emerg] 3596#8732: CreateDirectory() "D:\nginx-lb\nginx-1.15.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2018/10/02 16:08:09 [notice] 12156#12864: signal process started
+2018/10/02 18:04:32 [error] 8180#14916: *47 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8001/favicon.ico", host: "localhost"
+2018/10/02 18:05:32 [error] 8180#14916: *47 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8003/favicon.ico", host: "localhost"
+2018/10/02 18:06:32 [error] 8180#14916: *47 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8002/favicon.ico", host: "localhost"
+2018/10/02 18:07:32 [error] 8180#14916: *47 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8004/favicon.ico", host: "localhost"
+2018/10/02 18:08:32 [error] 8180#14916: *55 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8001/favicon.ico", host: "www.localhost"
+2018/10/02 18:09:32 [error] 8180#14916: *55 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8004/favicon.ico", host: "www.localhost"
+2018/10/02 18:10:32 [error] 8180#14916: *55 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8003/favicon.ico", host: "www.localhost"
+2018/10/02 18:11:32 [error] 8180#14916: *55 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8002/favicon.ico", host: "www.localhost"
+2018/10/03 21:01:01 [error] 26980#32432: *3 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8002/favicon.ico", host: "localhost"
+2018/10/03 21:02:01 [error] 26980#32432: *3 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8003/favicon.ico", host: "localhost"
+2018/10/03 21:02:26 [notice] 6752#29760: signal process started
+2018/10/03 21:03:02 [error] 26980#32432: *21 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.31.182:8002/favicon.ico", host: "www.localhost"
+2018/10/03 21:03:14 [notice] 29260#16376: signal process started
+2018/10/03 21:03:51 [notice] 18572#28016: signal process started
+2018/10/03 21:08:12 [notice] 29860#29964: signal process started
+2018/10/03 21:20:02 [notice] 31544#51108: signal process started
+2018/10/03 21:20:30 [error] 49588#47164: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /layui/css/layui.css HTTP/1.1", upstream: "http://192.168.31.182:8002/layui/css/layui.css", host: "localhost", referrer: "http://localhost/goods?gid=1333"
+2018/10/03 21:20:30 [error] 49588#47164: *2 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /layui/layui.all.js HTTP/1.1", upstream: "http://192.168.31.182:8004/layui/layui.all.js", host: "localhost", referrer: "http://localhost/goods?gid=1333"
+2018/10/03 21:20:56 [error] 49588#47164: *7 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /layui/layui.all.js HTTP/1.1", upstream: "http://192.168.31.182:8003/layui/layui.all.js", host: "localhost", referrer: "http://localhost/goods?gid=1333"
+2018/10/03 21:23:22 [notice] 28024#49028: signal process started
+2018/10/03 21:58:26 [notice] 18416#44320: signal process started
+2018/10/03 22:00:53 [notice] 48024#54100: signal process started
+2018/10/03 22:02:34 [warn] 17420#7716: duplicate MIME type "text/css" in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:38
+2018/10/03 22:02:34 [notice] 17420#7716: signal process started
+2018/10/03 22:02:35 [warn] 48400#20708: duplicate MIME type "text/css" in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:38
+2018/10/03 22:02:47 [notice] 18212#29784: signal process started
+2018/10/03 22:06:01 [notice] 27316#32476: signal process started
+2018/10/03 23:12:44 [emerg] 16044#25224: unknown directive "proxy_temp" in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:43
+2018/10/03 23:13:29 [emerg] 25172#14976: invalid number of arguments in "proxy_temp_path" directive in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:43
+2018/10/03 23:15:11 [emerg] 4744#27728: invalid number of arguments in "proxy_pass" directive in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:65
+2018/10/03 23:15:38 [emerg] 18988#18332: invalid number of arguments in "proxy_pass" directive in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:65
+2018/10/03 23:15:39 [emerg] 11616#8612: invalid number of arguments in "proxy_pass" directive in D:\nginx-lb\nginx-1.15.3/conf/nginx.conf:65
+2018/10/03 23:16:38 [notice] 18476#14548: signal process started
+2018/10/03 23:16:39 [notice] 4152#22388: signal process started
+2018/10/03 23:16:40 [notice] 8328#46996: signal process started
+2018/10/03 23:16:40 [notice] 30844#33668: signal process started
+2018/10/03 23:16:41 [notice] 12588#20160: signal process started
+2018/10/03 23:16:43 [notice] 47400#23356: signal process started
+2018/10/03 23:16:43 [notice] 30064#24412: signal process started
+2018/10/03 23:16:45 [notice] 31608#41640: signal process started
+2018/10/03 23:16:46 [notice] 27952#6268: signal process started
+2018/10/03 23:16:47 [notice] 23224#51824: signal process started
+2018/10/03 23:16:48 [notice] 30224#41856: signal process started
+2018/10/03 23:16:48 [notice] 33064#50968: signal process started
+2018/10/03 23:16:50 [notice] 23568#49580: signal process started
+2018/10/03 23:16:50 [notice] 31808#25384: signal process started
+2018/10/03 23:16:51 [notice] 11524#20152: signal process started
+2018/10/03 23:17:10 [notice] 18356#36572: signal process started
+2018/10/03 23:25:55 [notice] 30452#49216: signal process started
+2018/10/03 23:36:57 [notice] 28904#8492: signal process started
+2018/10/04 23:34:40 [notice] 5840#14316: signal process started
+2018/10/04 23:36:38 [notice] 16364#4512: signal process started
+2018/10/04 23:38:55 [notice] 13828#8600: signal process started
+2018/10/04 23:40:25 [notice] 2148#3960: signal process started
+2018/10/04 23:42:26 [notice] 3040#1020: signal process started
+2018/10/04 23:44:41 [notice] 14208#15776: signal process started
+2018/10/04 23:44:51 [notice] 15924#13788: signal process started
